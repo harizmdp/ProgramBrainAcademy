@@ -1,162 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Program Brain Academy</title>
 
-<style>
+<link rel="stylesheet" href="styles.css">
 
-body{
-font-family: Arial;
-margin:0;
-background:#f5f5f5;
-}
-
-header{
-background:#0a3d62;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-nav{
-background:#1e3799;
-padding:10px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-section{
-padding:40px;
-background:white;
-margin:20px;
-border-radius:8px;
-}
-
-h2{
-color:#0a3d62;
-}
-
-.course{
-background:#ecf0f1;
-padding:15px;
-margin:10px 0;
-border-radius:6px;
-}
-
-footer{
-background:#0a3d62;
-color:white;
-text-align:center;
-padding:15px;
-}
-
-.button{
-background:#27ae60;
-color:white;
-padding:10px 20px;
-text-decoration:none;
-border-radius:5px;
-}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<h1>Program Brain Academy</h1>
-<p>Embedded Systems Training Institute</p>
-</header>
+<header class="site-header">
+<div class="container nav">
 
-<nav>
-<a href="#courses">Courses</a>
-<a href="#class">Classes</a>
-<a href="#fees">Fees</a>
+<div class="brand">
+<img src="Logo.png">
+<div class="brand-text">
+<strong>Program Brain</strong>
+<span>Academy</span>
+</div>
+</div>
+
+<nav class="menu">
 <a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#feedback">Feedback</a>
 <a href="#contact">Contact</a>
 </nav>
 
+</div>
+</header>
+
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>From Basics to Brilliance in Embedded Systems</h1>
+
+<p>
+Join Program Brain Academy to unlock your potential with expert-led programs,
+hands-on projects and real world engineering experience.
+</p>
+
+<a class="btn-primary" href="#courses">Explore Courses</a>
+
+</div>
+</section>
+
 
 <section id="courses">
-<h2>Courses Offered</h2>
 
-<div class="course">C Programming</div>
-<div class="course">STM32 Programming</div>
-<div class="course">PIC Microcontroller</div>
-<div class="course">ESP32 Development</div>
-<div class="course">Arduino Programming</div>
+<h2>Featured Programs</h2>
 
-</section>
+<div class="feature-grid">
 
+<div class="card">
+<h3>Embedded Systems</h3>
+<p>Hands-on firmware development for STM32, PIC, AVR and ESP microcontrollers.</p>
+</div>
 
-<section id="class">
-<h2>Class Types</h2>
+<div class="card">
+<h3>AI & Edge AI</h3>
+<p>Learn computer vision, machine learning and deploy models on embedded hardware.</p>
+</div>
 
-<p>We provide both Online and Offline classes.</p>
+<div class="card">
+<h3>Robot Automation</h3>
+<p>Build automation systems using sensors, motors and robotics frameworks.</p>
+</div>
 
-<ul>
-<li>Online Classes – Live interactive sessions</li>
-<li>Offline Classes – Classroom training</li>
-<li>Hands-on Embedded Programming</li>
-</ul>
+<div class="card">
+<h3>Resume Building</h3>
+<p>Professional resume creation and interview preparation for engineering jobs.</p>
+</div>
 
-</section>
-
-
-<section id="fees">
-<h2>Course Fees</h2>
-
-<p>Contact us for detailed course fees and batch timings.</p>
-
-<a class="button" href="#contact">Contact Now</a>
-
+</div>
 </section>
 
 
 <section id="about">
-<h2>About Program Brain Academy</h2>
+
+<h2>About Us</h2>
 
 <p>
-Program Brain Academy provides practical training in Embedded Systems and Microcontroller programming.
-Students learn real-world programming with hands-on projects and hardware development.
+Program Brain Academy focuses on practical technology education.  
+Our goal is to help students understand electronics, embedded systems and AI
+through hands-on projects and real engineering problems.
 </p>
 
 </section>
 
 
+<section id="feedback">
+
+<h2>Student Feedback</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+<p>The classes are practical and very easy to understand.</p>
+</div>
+
+<div class="testimonial">
+<p>Excellent teaching method with real project examples.</p>
+</div>
+
+<div class="testimonial">
+<p>Step-by-step explanation helped me learn microcontrollers.</p>
+</div>
+
+<div class="testimonial">
+<p>A great place to learn electronics and embedded systems.</p>
+</div>
+
+</div>
+
+</section>
+
+
 <section id="contact">
+
 <h2>Contact</h2>
 
-<p>Email: your@email.com</p>
-<p>Phone: +91-XXXXXXXXXX</p>
+<div class="contact-container">
 
-<p>Follow us:</p>
+<div class="contact-info">
 
-<a href="#">YouTube</a> |
-<a href="#">LinkedIn</a> |
-<a href="#">WhatsApp</a>
+<div>
+<strong>Email</strong><br>
+harizmdp199@gmail.com
+</div>
+
+<div>
+<strong>Phone</strong><br>
++91 6374525165
+</div>
+
+</div>
 
 
-<h3>Location</h3>
+<div class="social-buttons">
+
+<a href="https://chat.whatsapp.com/F9VAR9QpS5tB43OV3ytAtD" class="button-outline">WhatsApp</a>
+
+<a href="https://www.youtube.com/channel/UC9NWIi-oxAe0HY81s3mgsKg" class="button-outline">YouTube</a>
+
+<a href="https://www.instagram.com/programbrain" class="button-outline">Instagram</a>
+
+<a href="https://telegram.me/+R6SUX68LIEEc2tK5" class="button-outline">Telegram</a>
+
+</div>
+
+</div>
+
+
+<h3>Our Location</h3>
 
 <iframe
-src="https://www.google.com/maps"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d600.6736217816089!2d80.1275003030373!3d12.95997076741098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0006ad209b%3A0x83803116af09a7ad!2sBalakumaran%20House!5e0!3m2!1sen!2sin!4v1773245401021!5m2!1sen!2sin"
 width="100%"
-height="300"
-style="border:0;">
+height="350"
+style="border:0;border-radius:10px;"
+loading="lazy">
 </iframe>
 
 </section>
 
 
-<footer>
-<p>© 2026 Program Brain Academy</p>
+<footer class="footer">
+
+© 2016 Program Brain Academy — Building technology confidence with every training.
+
 </footer>
 
 </body>
